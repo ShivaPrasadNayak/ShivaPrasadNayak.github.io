@@ -1,0 +1,116 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: white;
+  height: 100vh;
+}
+
+.links {
+  position: relative;
+  width: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.links a {
+  text-decoration: none;
+  color: #acacac;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-family: poppins, sans-serif;
+  -webkit-transform: translate(150rem, 2rem);
+          transform: translate(150rem, 2rem);
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -95%);
+          transform: translate(-50%, -95%);
+}
+
+form .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+}
+
+form .title h1 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 8.5rem;
+  color: #464646;
+}
+
+form .search {
+  width: 80rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form .search input {
+  margin: 1rem;
+  width: 70%;
+  height: 4.5rem;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 2rem;
+}
+
+form .search input :hover {
+  -webkit-box-shadow: 1.5rem 1.5rem 10rem #c5c4c4;
+          box-shadow: 1.5rem 1.5rem 10rem #c5c4c4;
+}
+
+form .btn {
+  width: 60rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+form .btn input {
+  position: relative;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  outline: none;
+  background-color: #e9e9e9;
+  margin: 2rem;
+  left: 15%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

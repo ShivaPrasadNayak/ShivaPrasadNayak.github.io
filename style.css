@@ -24,10 +24,11 @@ body {
 
 .links a {
   text-decoration: none;
-  color: #acacac;
+  color: white;
+  background-color: rgba(61, 61, 238, 0.918);
   margin: 1rem;
   padding: 1rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-family: poppins, sans-serif;
   -webkit-transform: translate(150rem, 2rem);
           transform: translate(150rem, 2rem);
